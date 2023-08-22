@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  font-family: "MyAppleFont", sans-serif !important;
+}
+body *:focus-visible {
+  outline: none !important;
+}
