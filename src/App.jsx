@@ -17,7 +17,7 @@ function App() {
   const [name, setName] = useState("");
   const [selectedOffer, setSelectedOffer] = useState(null);
   const [custom, setCustom] = useState(false);
-  const [offer, setOffer] = useState(0);
+  const [offer, setOffer] = useState(null);
   const [open, setOpen] = useState(false);
   const [payModal, setPayModal] = useState(false);
 
@@ -261,7 +261,7 @@ function App() {
                     setName("");
                     setCustom(null);
                     setSelectedOffer(null);
-                    setOffer(0);
+                    setOffer(null);
                     setPayModal(false);
                   }}
                   className="mt-4 !rounded-md"
