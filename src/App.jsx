@@ -261,6 +261,7 @@ function App() {
                     setName("");
                     setCustom(null);
                     setSelectedOffer(null);
+                    setOffer(0);
                     setPayModal(false);
                   }}
                   className="mt-4 !rounded-md"
